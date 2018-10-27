@@ -6,6 +6,8 @@ tags: [Unity3D]
 categories: [translate]
 ---
 
+> 本篇是对Unity官方最佳实践的翻译，原文地址[https://unity3d.com/learn/tutorials/topics/best-practices/assets-objects-and-serialization](https://unity3d.com/learn/tutorials/topics/best-practices/assets-objects-and-serialization) 
+
 
 Assets，Objects和序列化
 =
