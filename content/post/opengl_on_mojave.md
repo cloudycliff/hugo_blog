@@ -2,9 +2,12 @@
 title: "Opengl_on_mojave"
 date: 2018-10-23T14:58:40+08:00
 draft: false
+tags: [OpenGL]
+categories: [development]
 ---
 
-# Mac上搭建OpenGL开发环境
+Mac上搭建OpenGL开发环境
+=
 
 ## 编译环境
 
