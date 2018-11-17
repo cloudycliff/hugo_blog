@@ -18,7 +18,7 @@ categories: [translate]
 
 AssetBundle系统提供了一种Unity可以索引和序列化的，把多个文件存储到一个归档格式的方法。AssetBundle是Unity在应用安装后投递和更新非代码内容的主要工具。这允许开发者提交一个小的应用包，最小化运行时内存压力，根据用户设备有选择的加载最优的资源。
 
-理解AssetBundle的工作原理是为移动设备构建成功项目的关键。可以通过[AssetBundle文档](https://docs.unity3d.com/Manual/AssetBundlesIntro.html?_ga=2.126189709.184694638.1540294356-812634850.1540294356)获取关于AssetBundle的整体描述。
+理解AssetBundle的工作原理是为移动设备构建成功项目的关键。可以通过[AssetBundle文档](https://docs.unity3d.com/Manual/AssetBundlesIntro.html)获取关于AssetBundle的整体描述。
 
 ## 3.2 AssetBundle布局
 
@@ -98,7 +98,7 @@ LZMA压缩的AssetBundle会在下载过程中解压，并使用LZ4压缩方式�
 
 通常情况下，应该尽量使用`AssetBundle.LoadFromFile`。这个API在速度、硬盘使用和运行时内存占用都是最高效的。
 
-对于需要下载和更新AssetBundle的项目，强烈推荐使用UnityWebRequest（Unity 5.3以后）或WWW.LoadFromCacheOrDownload（Unity 5.2之前）。下一章中会详细讲到，it is possible to prime the AssetBundle Cache with Bundles included within a project's installer（TODO：恕我真的没看懂。。等看到下一章相关章节再看看。。）
+对于需要下载和更新AssetBundle的项目，强烈推荐使用UnityWebRequest（Unity 5.3以后）或WWW.LoadFromCacheOrDownload（Unity 5.2之前）。下一章的发布段落中会详细讲到，即使AssetBundle是随项目安装包一起安装的，也可以提前预热AssetBundle缓存。
 
 在使用`UnityWebRequest`或`WWW.LoadFromCacheOrDownload`时，要保证在加载AssetBundle后正确的调用了`Dispose`方法。另外，C#的using语句可以很方便的保证WWW或UnityWebRequest被正确的dispose了。
 
@@ -159,7 +159,7 @@ UnityEngine.Object的加载并不在主线程进行，而是通过工作线程�
 
 然而，当AssetBundle 1被加载时，Unity不会自动加载AssetBundle 2。这必须通过脚本手动的去实现。
 
-可以参考[manual](https://docs.unity3d.com/Manual/AssetBundles-Dependencies.html?_ga=2.148172343.184694638.1540294356-812634850.1540294356)来获取关于AssetBundle依赖的更多信息。
+可以参考[manual](https://docs.unity3d.com/Manual/AssetBundles-Dependencies.html)来获取关于AssetBundle依赖的更多信息。
 
 ### 3.4.3 AssetBundle manifest文件
 
