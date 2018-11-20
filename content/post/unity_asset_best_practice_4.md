@@ -1,5 +1,5 @@
 ---
-title: "Unity_asset_best_practice_4"
+title: "[译]Unity资源最佳实践4-AssetBundle使用模式"
 date: 2018-10-27T14:16:26+08:00
 draft: false
 tags: [Unity3D]

@@ -1,5 +1,5 @@
 ---
-title: "Unity_asset_best_practice_2"
+title: "[译]Unity资源最佳实践2-Resources目录"
 date: 2018-10-23T18:57:29+08:00
 draft: false
 tags: [Unity3D]
@@ -7,7 +7,6 @@ categories: [translate]
 ---
 
 > 本篇是对Unity官方最佳实践的翻译，原文地址[https://unity3d.com/learn/tutorials/topics/best-practices/resources-folder](https://unity3d.com/learn/tutorials/topics/best-practices/resources-folder) 
-
 
 Resources目录
 =

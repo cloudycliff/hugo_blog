@@ -1,5 +1,5 @@
 ---
-title: "Opengl_on_mojave"
+title: "Mac上搭建OpenGL开发环境"
 date: 2018-10-23T14:58:40+08:00
 draft: false
 tags: [OpenGL]

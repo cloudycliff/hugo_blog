@@ -1,5 +1,5 @@
 ---
-title: "Unity_asset_best_practice_1"
+title: "[译]Unity资源最佳实践1-Assets，Objects和序列化"
 date: 2018-10-23T18:57:27+08:00
 draft: false
 tags: [Unity3D]
@@ -7,7 +7,6 @@ categories: [translate]
 ---
 
 > 本篇是对Unity官方最佳实践的翻译，原文地址[https://unity3d.com/learn/tutorials/topics/best-practices/assets-objects-and-serialization](https://unity3d.com/learn/tutorials/topics/best-practices/assets-objects-and-serialization) 
-
 
 Assets，Objects和序列化
 =

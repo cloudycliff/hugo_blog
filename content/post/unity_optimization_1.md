@@ -1,5 +1,5 @@
 ---
-title: "Unity_optimization_1"
+title: "[译]Unity优化最佳实践1-Profiling"
 date: 2018-11-15T15:59:57+08:00
 draft: false
 tags: [Unity3D]

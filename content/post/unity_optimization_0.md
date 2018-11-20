@@ -1,5 +1,5 @@
 ---
-title: "Unity_optimization_0"
+title: "[译]Unity优化最佳实践0-目录"
 date: 2018-11-15T15:39:31+08:00
 draft: false
 tags: [Unity3D]
@@ -14,6 +14,8 @@ categories: [translate]
 
 尽管Unite上的演讲主要针对移动性能话题，演讲的很多内容对于普通听众也是适用的。在写本篇时，会尽力去讨论一些范围更广且平台无关的性能优化内容。
 
+（译注：这系列文章已经有段时间了，所以其中提到的一些点并不一定适用于当前版本，在使用之前还需要多自我判断。。）
+
 ## 提纲
 
 * [Profiling](/post/unity_optimization_1)
@@ -21,9 +23,9 @@ categories: [translate]
 * [协程](/post/unity_optimization_3)
 * [资源审核](/post/unity_optimization_4)
 * [理解托管堆](/post/unity_optimization_5)
-* [字符串和文本]()
+* [字符串和文本](/post/unity_optimization_6)
 * Resources文件夹  （译注：这篇几乎什么都没说，就是让大家去参考资源的最佳实践内容，所以就不单独一章了，可以参考我之前的翻译）
-* [通用优化建议]()
-* [特殊优化建议]()
+* [通用优化建议](/post/unity_optimization_7)
+* [特殊优化建议](/post/unity_optimization_8)
 
 

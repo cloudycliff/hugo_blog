@@ -1,5 +1,5 @@
 ---
-title: "Unity_optimization_4"
+title: "[译]Unity优化最佳实践4-资源审查"
 date: 2018-11-16T17:40:09+08:00
 draft: false
 tags: [Unity3D]

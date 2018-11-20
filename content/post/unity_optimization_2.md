@@ -1,5 +1,5 @@
 ---
-title: "Unity_optimization_2"
+title: "[译]Unity优化最佳实践2-内存"
 date: 2018-11-16T09:52:00+08:00
 draft: false
 tags: [Unity3D]

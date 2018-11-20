@@ -1,5 +1,5 @@
 ---
-title: "Unity_optimization_5"
+title: "[译]Unity优化最佳实践5-理解托管堆"
 date: 2018-11-16T20:54:02+08:00
 draft: false
 tags: [Unity3D]
@@ -503,7 +503,7 @@ for ( int i = 0; i < touchCount; i++ )
 
 ```
 
-注意对于属性的访问`Input.touchCount`仍然被保持在循环之外，来节约执行属性的`get`方法的CPU消耗。（译注：这里直接写在for里也没问题吧好像。。for循环应该也只会访问一次而已吧。。不是很确定这么做的好处。。）
+注意对于属性的访问`Input.touchCount`仍然被保持在循环之外，来节约执行属性的`get`方法的CPU消耗。
 
 ### 空数组复用
 
